@@ -1,0 +1,1147 @@
+*{
+    box-sizing: border-box;
+  }
+  body {
+    font-size: 14px;
+  }
+  .travel_logo{
+      position: absolute;
+  width: 70px;
+  height: 64px;
+  left: 0px;
+  top: 0px;
+  
+  }
+  .sliderImage1{
+      position: absolute;
+  width: 47px;
+  height: 48px;
+  left: 270px;
+  top: 580px;
+  
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  }
+  .sliderImage2{
+      position: absolute;
+  width: 44.65px;
+  height: 48px;
+  left: 945px;
+  top: 580px;
+  
+  }
+  .area {
+    width: 100%;
+    height: 1800px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+    align-items: center;
+  }
+  .bigArea {
+    width: 100%;
+    height: 118px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .verticalLine{
+      position: absolute;
+  width: 90px;
+  height: 0px;
+  left: 1250px;
+  top: 15px;
+  
+  border: 1px solid #54BFBF;
+  transform: rotate(90deg);
+  }
+  .horizontalLine{
+      
+  position: absolute;
+  width: 100%;
+  height: 0px;
+  left: 0px;
+  top: 60px;
+  
+  border: 1px solid #54BFBF;
+  transform: rotate(0.06deg);
+  }
+  .help {
+    width: 55px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 18px;
+    left: 900px;
+    font-family: Inter;
+    font-weight: Regular;
+    font-size: 15px;
+    opacity: 1;
+    text-align: left;
+  }
+  .salesOffice {
+    width: 94px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 18px;
+    left: 1000px;
+    font-family: Inter;
+    font-weight: Regular;
+    font-size: 15px;
+    opacity: 1;
+    text-align: left;
+  }
+  .blog {
+    width: 32px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 18px;
+    left: 1150px;
+    font-family: Inter;
+    font-weight: Regular;
+    font-size: 15px;
+    opacity: 1;
+    text-align: left;
+  }
+  .name {
+    color: #fff;
+  }
+  .signUp {
+    width: 56px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 17px;
+    left: 1600px;
+    font-family: Inter;
+    font-weight: Regular;
+    font-size: 15px;
+    opacity: 1;
+    text-align: left;
+  }
+  .logIn {
+    width: 44px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 18px;
+    left: 1400px;
+    font-family: Inter;
+    font-weight: Regular;
+    font-size: 15px;
+    opacity: 1;
+    text-align: left;
+  }
+  
+  .hotel {
+    width: 31px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 85px;
+    left: 39px;
+    font-family: Inter;
+    font-weight: Regular;
+    font-size: 15px;
+    opacity: 1;
+    text-align: left;
+  }
+  .tour {
+    width: 26px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 85px;
+    left: 110px;
+    font-family: Inter;
+    font-weight: Regular;
+    font-size: 15px;
+    opacity: 1;
+    text-align: left;
+  }
+  .ship {
+    width: 25px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 85px;
+    left: 175px;
+    font-family: Inter;
+    font-weight: Regular;
+    font-size: 15px;
+    opacity: 1;
+    text-align: left;
+  }
+  .airTicket {
+    width: 110px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 85px;
+    left: 220px;
+    font-family: Inter;
+    font-weight: Regular;
+    font-size: 15px;
+    opacity: 1;
+    text-align: left;
+  }
+  .earlyReservation {
+    width: 130px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 85px;
+    left: 340px;
+    font-family: Inter;
+    font-weight: Regular;
+    font-size: 15px;
+    opacity: 1;
+    text-align: left;
+  }
+  .campaigns {
+    width: 64px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 85px;
+    left: 480px;
+    font-family: Inter;
+    font-weight: Regular;
+    font-size: 15px;
+    opacity: 1;
+    text-align: left;
+  }
+  .blueBack {
+    display: inline-block;
+    width: 1750px;
+    height: 300px;
+    background: rgba(28,140,140,1);
+    opacity: 0.699999988079071;
+    position: absolute;
+    top: 118px;
+    left: 23px;
+    overflow: hidden;
+  }
+  .vacationTitle {
+    width: 364px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 167px;
+    left: 39px;
+    font-family: Inter;
+    font-weight: Regular;
+    font-size: 25px;
+    opacity: 1;
+    text-align: left;
+  }
+  .lightBlueBack {
+    width: 1600px;
+    height: 156px;
+    background: rgba(22,90,192,0.8999999761581421);
+    opacity: 0.8999999761581421;
+    position: absolute;
+    top: 222px;
+    left: 43px;
+    overflow: hidden;
+  }
+  .hotelBack {
+    width: 109px;
+    height: 29px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 239px;
+    left: 67px;
+    overflow: hidden;
+  }
+  .hotelIcon{
+      position: absolute;
+  width: 28px;
+  height: 27px;
+  left: 67px;
+  top: 241px;
+  }
+  .hotelTitle {
+    width: 31px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 246px;
+    left: 112px;
+    font-family: Inter;
+    font-weight: Regular;
+    font-size: 12px;
+    opacity: 1;
+    text-align: left;
+  }
+  .culturalTourBack {
+    width: 143px;
+    height: 29px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 239px;
+    left: 260px;
+    overflow: hidden;
+  }
+  .cTourTitle {
+    width: 73px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 246px;
+    left: 320px;
+    font-family: Inter;
+    font-weight: Regular;
+    font-size: 12px;
+    opacity: 1;
+    text-align: left;
+  }
+  .abroadTourBack {
+    width: 133px;
+    height: 29px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 239px;
+    left: 500px;
+    overflow: hidden;
+  }
+  .cTourIcon{
+      position: absolute;
+      width: 28px;
+      height: 27px;
+      left: 285px;
+      top: 240px;
+  }
+  .aTourTitle {
+    width: 70px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 246px;
+    left: 540px;
+    font-family: Inter;
+    font-weight: Regular;
+    font-size: 12px;
+    opacity: 1;
+    text-align: left;
+  }
+  .aTourIcon{
+      position: absolute;
+      width: 30px;
+      height: 25px;
+      left: 500px;
+      top: 239px;
+      transform: matrix(-1, 0, 0, 1, 0, 0);
+  
+  }
+  .whiteBack {
+    width: 1200px;
+    height: 67px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 286px;
+    left: 67px;
+    overflow: hidden;
+  }
+  .arrowIcon {
+    width: 32px;
+    height: 28px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 314px;
+    left: 430px;
+    overflow: hidden;
+  }
+  
+  .greenBack {
+    width: 135px;
+    height: 67px;
+    background: rgba(5,164,21,1);
+    opacity: 1;
+    position: absolute;
+    top: 286px;
+    left: 1200px;
+    overflow: hidden;
+  }
+  .research {
+    width: 88px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 311px;
+    left: 1240px;
+    font-family: Inter;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+  }
+  .researchIcon{
+      position: absolute;
+      width: 35px;
+      height: 35px;
+      left: 1200px;
+      top: 305px;
+  }
+  
+  .sliderBack {
+    width: 1200px;
+    height: 900px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 432px;
+    left: 715px;
+    overflow: hidden;
+  }
+  .sliderIcon {
+    width: 685px;
+    height: 430px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 32px;
+    overflow: hidden;
+  }
+  
+  .detailInfo {
+      position: absolute;
+  width: 171px;
+  height: 88px;
+  left: 900px;
+  top: 850px;
+  
+  background: #FFFFFF;
+  opacity: 0.8;
+  border-radius: 8px;
+  
+  }
+  .koln {
+    width: 33px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 860px;
+    left: 925px;
+    font-family: Inter;
+    font-weight: Bold;
+    font-size: 12px;
+    opacity: 1;
+    text-align: left;
+  }
+  .kolndetail {
+    width: 134px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 880px;
+    left: 925px;
+    font-family: Inter;
+    font-weight: Bold;
+    font-size: 10px;
+    opacity: 1;
+    text-align: left;
+  }
+  .purpleDetail {
+    width: 76px;
+    height: 22px;
+    background: linear-gradient(rgba(101,36,240,1), rgba(101,36,240,1));
+    opacity: 1;
+    position: absolute;
+    top: 915px;
+    left: 925px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    overflow: hidden;
+  }
+  .detailTitle {
+    width: 50px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 920px;
+    left: 925px;
+    font-family: Inter;
+    font-weight: Bold;
+    font-size: 10px;
+    opacity: 1;
+    text-align: left;
+  }
+  .destinationArea2 {
+    width: 145px;
+    height: 33px;
+    background: rgba(217,217,217,1);
+    opacity: 1;
+    position: absolute;
+    top: 311px;
+    left: 175px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+  
+  }
+  .enterTimeArea {
+    width: 123px;
+    height: 33px;
+    background: rgba(217,217,217,1);
+    opacity: 1;
+    position: absolute;
+    top: 311px;
+    left: 500px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+  }
+  .terinationArea {
+      position: absolute;
+  width: 123px;
+  height: 33px;
+  left: 800px;
+  top: 309px;
+  
+  background: #D9D9D9;
+  border-radius: 10px;
+  }
+  .bodyArea {
+      position: absolute;
+  width: 123px;
+  height: 33px;
+  left: 1000px;
+  top: 309px;
+  
+  background: #D9D9D9;
+  border-radius: 10px;
+  }
+  .destinationArea {
+    width: 102px;
+    height: 14px;
+    background: rgba(35,208,208,1);
+    opacity: 1;
+    position: absolute;
+    top: 293px;
+    left: 185px;
+    overflow: hidden;
+  }
+  .enterTitle {
+    width: 102px;
+    height: 14px;
+    background: rgba(35,208,208,1);
+    opacity: 1;
+    position: absolute;
+    top: 293px;
+    left: 510px;
+    overflow: hidden;
+  }
+  .terminationTitle {
+    width: 102px;
+    height: 14px;
+    background: rgba(35,208,208,1);
+    opacity: 1;
+    position: absolute;
+    top: 293px;
+    left: 810px;
+    overflow: hidden;
+  }
+  .bodyTitle {
+    width: 102px;
+    height: 14px;
+    background: rgba(35,208,208,1);
+    opacity: 1;
+    position: absolute;
+    top: 292px;
+    left: 1010px;
+    overflow: hidden;
+  }
+  .destination {
+    width: 63px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 293px;
+    left: 200px;
+    font-family: Inter;
+    font-weight: Bold;
+    font-size: 11px;
+    opacity: 1;
+    text-align: left;
+  }
+  .horizontalLine2{
+      position: absolute;
+  width: 65.01px;
+  height: 0px;
+  left: 900px;
+  top: 319px;
+  
+  border: 1px solid #54BFBF;
+  transform: rotate(89.12deg);
+  }
+  .arrowImage{
+      position: absolute;
+  width: 32px;
+  height: 28px;
+  left: 700px;
+  top: 314px;
+  }
+  .horizontalLine3{
+      position: absolute;
+      width: 66.01px;
+      height: 0px;
+      left: 400px;
+      top: 319px;
+  
+      border: 1px solid #54BFBF;
+      transform: rotate(89.13deg);
+  }
+  .enteredTime {
+    width: 72px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 293px;
+    left: 510px;
+    font-family: Inter;
+    font-weight: Bold;
+    font-size: 11px;
+    opacity: 1;
+    text-align: left;
+  }
+  .terminationTime {
+    width: 95px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 293px;
+    left: 810px;
+    font-family: Inter;
+    font-weight: Bold;
+    font-size: 11px;
+    opacity: 1;
+    text-align: left;
+  }
+  .body {
+    width: 63px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 293px;
+    left: 1030px;
+    font-family: Inter;
+    font-weight: Bold;
+    font-size: 11px;
+    opacity: 1;
+    text-align: left;
+  }
+  .bblueBack {
+    width: 400px;
+    height: 650px;
+    background: rgba(36,208,208,1);
+    opacity: 0.30000001192092896;
+    position: absolute;
+    top: 432px;
+    left: 23px;
+    overflow: hidden;
+  }
+  .thunderIcon {
+    width: 57px;
+    height: 65px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 451px;
+    left: 39px;
+    overflow: hidden;
+  }
+  .blueText1 {
+    width: 250px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 558px;
+    left: 100px;
+    font-family: Inter;
+    font-weight: Bold;
+    font-size: 25px;
+    opacity: 1;
+    text-align: left;
+  }
+  .blueText2 {
+    width: 250px;
+    color: rgba(204,31,31,1);
+    position: absolute;
+    top: 800px;
+    left: 100px;
+    font-family: Inter;
+    font-weight: Bold;
+    font-size: 25px;
+    opacity: 1;
+    text-align: left;
+  }
+  .holidayIcon {
+    width: 54px;
+    height: 53px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 1000px;
+    left: 315px;
+    overflow: hidden;
+  }
+  .vacationBack {
+    width: 100%;
+    height: 261px;
+    background: rgba(23,62,108,0.75);
+    opacity: 1;
+    position: absolute;
+    top: 1130px;
+    left: 23px;
+    overflow: hidden;
+  }
+  .vacationText {
+    width: 253px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 1135px;
+    left: 900px;
+    font-family: Inter;
+    font-weight: Bold;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+  }
+  .vacationSubBack1 {
+    width: 225px;
+    height: 189px;
+    background: rgba(255,255,255,1);
+    opacity: 0.6000000238418579;
+    position: absolute;
+    top: 1175px;
+    left: 81px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+  }
+  .vacationSubBack2 {
+    width: 225px;
+    height: 189px;
+    background: rgba(255,255,255,1);
+    opacity: 0.6000000238418579;
+    position: absolute;
+    top: 1175px;
+    left: 900px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+  }
+  .vacationSubBack3 {
+    width: 225px;
+    height: 189px;
+    background: rgba(255,255,255,1);
+    opacity: 0.6000000238418579;
+    position: absolute;
+    top: 1175px;
+    left: 1500px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+  }
+  .snowboardIcon {
+    width: 88px;
+    height: 94px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 1175px;
+    left: 140px;
+    overflow: hidden;
+  }
+  .vacationText2 {
+    width: 203px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 1300px;
+    left: 96px;
+    font-family: Inter;
+    font-weight: Bold;
+    font-size: 15px;
+    opacity: 1;
+    text-align: left;
+  }
+  .vacationText3 {
+    width: 71px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 1300px;
+    left: 980px;
+    font-family: Inter;
+    font-weight: Bold;
+    font-size: 15px;
+    opacity: 1;
+    text-align: left;
+  }
+  .vacationText4 {
+    width: 131px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 1300px;
+    left: 1550px;
+    font-family: Inter;
+    font-weight: Bold;
+    font-size: 15px;
+    opacity: 1;
+    text-align: left;
+  }
+  .trenIcon {
+    width: 170px;
+    height: 103px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 1175px;
+    left: 925px;
+    overflow: hidden;
+  }
+  .vacationIcon {
+    width: 86px;
+    height: 81px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 1175px;
+    left: 1575px;
+    overflow: hidden;
+  }
+  .communicationBack {
+    width: 100%;
+    height: 150px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 1415px;
+    left: 25px;
+    overflow: hidden;
+  }
+  .communicationText {
+    width: 156px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 1425px;
+    left: 875px;
+    font-family: Inter;
+    font-weight: Bold;
+    font-size: 25px;
+    opacity: 1;
+    text-align: left;
+  }
+  .communicationSubBack1 {
+    width: 300px;
+    height: 59px;
+    background: rgba(0,0,0,1);
+    opacity: 0.20000000298023224;
+    position: absolute;
+    top: 1500px;
+    left: 78px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+  }
+  .communicationSubBack2 {
+    width: 300px;
+    height: 59px;
+    background: rgba(0,0,0,1);
+    opacity: 0.20000000298023224;
+    position: absolute;
+    top: 1500px;
+    left: 800px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+  }
+  .communicationSubBack3 {
+    width: 300px;
+    height: 59px;
+    background: rgba(0,0,0,1);
+    opacity: 0.20000000298023224;
+    position: absolute;
+    top: 1500px;
+    left: 1350px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+  }
+  .communicationSales {
+    width: 130px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 1515px;
+    left: 925px;
+    font-family: Inter;
+    font-weight: Bold;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+  }
+  .locationIcon{
+    position: absolute;
+    width: 42px;
+    height: 52px;
+    left: 825px;
+    top: 1500px;
+  }
+  .phoneIcon {
+    width: 40px;
+    height: 45px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 1508px;
+    left: 92px;
+    overflow: hidden;
+  }
+  .phoneNumber {
+    width: 105px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 1520px;
+    left: 225px;
+    font-family: Inter;
+    font-weight: Bold;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+  }
+  .operatorIcon {
+    width: 55px;
+    height: 56px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 1500px;
+    left: 1375px;
+    overflow: hidden;
+  }
+  .operatorText {
+    width: 150px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 1520px;
+    left: 1450px;
+    font-family: Inter;
+    font-weight: Bold;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+  }
+  .referenceBack {
+    width: 100%;
+    height: 112px;
+    background: rgba(162,240,240,1);
+    opacity: 0.75;
+    position: absolute;
+    top: 1600px;
+    left: 23px;
+    overflow: hidden;
+  }
+  .referenceText {
+    width: 112px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 1600px;
+    left: 900px;
+    font-family: Inter;
+    font-weight: Bold;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+  }
+  .unitlogo {
+    width: 116px;
+    height: 34px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 1640px;
+    left: 78px;
+    overflow: hidden;
+  }
+  .white-fest-main {
+    width: 126px;
+    height: 42px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 1640px;
+    left: 400px;
+    overflow: hidden;
+  }
+  .ucuzbilet {
+    width: 220px;
+    height: 68px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 1640px;
+    left: 750px;
+    overflow: hidden;
+  }
+  .tomorrowland {
+    width: 44px;
+    height: 42px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 1640px;
+    left: 1200px;
+    overflow: hidden;
+  }
+  .obilet {
+    width: 100px;
+    height: 29px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 1640px;
+    left: 1500px;
+    overflow: hidden;
+  }
+  .mySlides {box-sizing:border-box}
+  
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  .text2 {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  .text3 {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 5px;
+    width: 96%;
+    text-align: center;
+  }
+
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 4s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
