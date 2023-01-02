@@ -1,0 +1,641 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-size: 14px;
+  }
+  .cardIcon{
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      left: 1355px;
+      top: 8px;
+      transform: rotate(90deg);
+  
+      }
+  .loginIcon{
+      
+      position: absolute;
+          width: 50px;
+          height: 50px;
+          left: 1205px;
+          top: 14px;
+      }
+  
+      
+  .mehmetc1{
+      position: absolute;
+    width: 225px;
+    height: 0px;
+    left: 1000px;
+    top: 0px;
+  
+  border: 1px solid #000000;
+  transform: rotate(90deg);
+  }
+  .v9_8 {
+    width: 100%;
+    height: 1627px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v1_2 {
+    width: 100%;
+    height: 100%;
+    background: rgba(188,174,147,1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+  }
+  .v8_42 {
+    width: 66px;
+    height: 77px;
+    background: url("gift.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 1189px;
+    left: 1225px;
+    overflow: hidden;
+  }
+  .v8_43 {
+    width: 80px;
+    height: 90px;
+    background: url("truck.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 1189px;
+    left: 1025px;
+    overflow: hidden;
+  }
+  .name {
+    color: #fff;
+  }
+  .name {
+    color: #fff;
+  }
+  .v3_7 {
+    width: 100%;
+    height: 111px;
+    background: rgba(188,174,147,1);
+    opacity: 1;
+    position: absolute;
+    top: 127px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .name {
+    color: #fff;
+  }
+  .v3_11 {
+    width: 410px;
+    height: 35px;
+    background: rgba(217,201,167,1);
+    opacity: 1;
+    position: absolute;
+    top: 50px;
+    left: 450px;
+    border: 2px solid rgba(0,0,0,1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+  }
+  .v3_12 {
+    width: 405px;
+    height: 30px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 52px;
+    left: 453px;
+    font-family: Inter;
+    font-weight: Regular;
+    font-size: 24px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v3_15 {
+    width: 58px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 67px;
+    left: 1350px;
+    font-family: Irish Grover;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v3_16 {
+    width: 58px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 67px;
+    left: 1200px;
+    font-family: Irish Grover;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v4_17 {
+    width: 738px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 160px;
+    left: 460px;
+    font-family: Irish Grover;
+    font-weight: Regular;
+    font-size: 24px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v4_18 {
+    width: 738px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 160px;
+    left: 600px;
+    font-family: Irish Grover;
+    font-weight: Regular;
+    font-size: 24px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v4_19 {
+    width: 738px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 160px;
+    left: 760px;
+    font-family: Irish Grover;
+    font-weight: Regular;
+    font-size: 24px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v4_20 {
+    width: 738px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 160px;
+    left: 920px;
+    font-family: Irish Grover;
+    font-weight: Regular;
+    font-size: 24px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v5_22 {
+    width: 100%;
+    height: 302px;
+    background: rgba(217,201,167,1);
+    opacity: 1;
+    position: absolute;
+    top: 248px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v6_28 {
+    width: 50px;
+    height: 50px;
+    background: url("arrow.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 364px;
+    left: 1125px;
+    overflow: hidden;
+  }
+  .v6_27 {
+    width: 50px;
+    height: 50px;
+    background: url("arrow.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 364px;
+    left: 375px;
+    overflow: hidden;
+    transform: rotate(180deg);
+  }
+  .v6_26 {
+    width: 125px;
+    height: 230px;
+    background: url("../images/v6_26.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 274px;
+    left: 268px;
+    overflow: hidden;
+  }
+  .v6_a {
+    width: 155px;
+    height: 230px;
+    background: url("logo2.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 274px;
+    left: 450px;
+    overflow: hidden;
+  }
+  .v6_b {
+    width: 165px;
+    height: 230px;
+    background: url("logo3.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 274px;
+    left: 605px;
+    overflow: hidden;
+  }
+  .v6_c {
+    width: 165px;
+    height: 230px;
+    background: url("logo4.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 274px;
+    left: 770px;
+    overflow: hidden;
+  }
+  .v6_d {
+    width: 165px;
+    height: 230px;
+    background: url("logo5.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 274px;
+    left: 935px;
+    overflow: hidden;
+  }
+  .v5_23 {
+    width: 150px;
+    height: 230px;
+    background: url("../images/v5_23.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 274px;
+    left: 403px;
+    overflow: hidden;
+  }
+  .v9_2 {
+    width: 150px;
+    height: 120px;
+    background: url("logo.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v6_29 {
+    width: 100%;
+    height: 272px;
+    background: rgba(188,174,147,1);
+    opacity: 1;
+    position: absolute;
+    top: 550px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v6_30 {
+    width: 731px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 597px;
+    left: 425px;
+    font-family: Irish Grover;
+    font-weight: Regular;
+    font-size: 40px;
+    opacity: 1;
+    text-align: center;
+  }
+  .v6_31 {
+    width: 100%;
+    height: 322px;
+    background: rgba(217,201,167,1);
+    opacity: 1;
+    position: absolute;
+    top: 822px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v6_32_ {
+    width: 169px;
+    height: 144px;
+    background: url("columbia.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 920px;
+    left: 1100px;
+    overflow: hidden;
+  }
+  .v6_34 {
+    width: 169px;
+    height: 144px;
+    background: url("quiksilver.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 920px;
+    left: 200px;
+    overflow: hidden;
+  }
+  .v6_35 {
+    width: 166px;
+    height: 144px;
+    background: url("northface.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 920px;
+    left: 500px;
+    overflow: hidden;
+  }
+  .v6_33 {
+    width: 148px;
+    height: 144px;
+    background: url("stanley.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 920px;
+    left: 800px;
+    overflow: hidden;
+  }
+  .v6_32 {
+    width: 360px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 855px;
+    left: 575px;
+    font-family: Irish Grover;
+    font-weight: Regular;
+    font-size: 40px;
+    opacity: 1;
+    text-align: center;
+  }
+  .v7_36 {
+    width: 186px;
+    height: 144px;
+    background: url("../images/v7_36.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 920px;
+    left: 413px;
+    overflow: hidden;
+  }
+  .v8_38 {
+    width: 127px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 1277px;
+    left: 1000px;
+    font-family: Irish Grover;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: center;
+  }
+  .v8_41 {
+    width: 120px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 1277px;
+    left: 1200px;
+    font-family: Irish Grover;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: center;
+  }
+  .v8_44 {
+    width: 127px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 1371px;
+    left: 1000px;
+    font-family: Irish Grover;
+    font-weight: Regular;
+    font-size: 18px;
+    opacity: 1;
+    text-align: center;
+  }
+  .v8_45 {
+    width: 101px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 1370px;
+    left: 1211px;
+    font-family: Irish Grover;
+    font-weight: Regular;
+    font-size: 18px;
+    opacity: 1;
+    text-align: center;
+  }
+  .v8_46 {
+    width: 349px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 1225px;
+    left: 90px;
+    font-family: Irish Grover;
+    font-weight: Regular;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v8_47 {
+    width: 349px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 1300px;
+    left: 90px;
+    font-family: Irish Grover;
+    font-weight: Regular;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+  }
+  .name {
+    color: #fff;
+  }
+  .v8_50 {
+    width: 148px;
+    height: 31px;
+    background: rgba(217,201,167,1);
+    opacity: 1;
+    position: absolute;
+    top: 1371px;
+    left: 90px;
+    border: 2px solid rgba(0,0,0,1);
+    overflow: hidden;
+  }
+  .v8_51 {
+    width: 140px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 1367px;
+    left: 98px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Irish Grover;
+    font-weight: Regular;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v8_55 {
+    width: 176px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 1477px;
+    left: 291px;
+    font-family: Irish Grover;
+    font-weight: Regular;
+    font-size: 25px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v8_56 {
+    width: 176px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 1510px;
+    left: 291px;
+    font-family: Irish Grover;
+    font-weight: Regular;
+    font-size: 25px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v8_57 {
+    width: 176px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 1543px;
+    left: 291px;
+    font-family: Irish Grover;
+    font-weight: Regular;
+    font-size: 25px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v8_58 {
+    width: 73px;
+    height: 58px;
+    background: url("twitter.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 1548px;
+    left: 650px;
+    overflow: hidden;
+  }
+  .v8_59 {
+    width: 73px;
+    height: 58px;
+    background: url("youtube.png  ");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 1548px;
+    left: 525px;
+    overflow: hidden;
+  }
+  .v8_60 {
+    width: 73px;
+    height: 58px;
+    background: url("instagram.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 1548px;
+    left: 775px;
+    overflow: hidden;
+  }
+  .v8_61 {
+      position: absolute;
+  width: 238px;
+  height: 0px;
+  left: 32px;
+  top: 0px;
+  
+  border: 1px solid #000000;
+  transform: rotate(90deg);
+  }
+  .v9_9 {
+      position: absolute;
+      width: 1800px;
+      height: 0px;
+      left: 0px;
+      top: 120px;
+  
+  border: 1px solid #000000;
+  }
+  .v12_10 {
+    width: 745px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 720px;
+    left: 425px;
+    font-family: Irish Grover;
+    font-weight: Regular;
+    font-size: 18px;
+    opacity: 1;
+    text-align: center;
+  }
+  .name {
+    color: #fff;
+  }
